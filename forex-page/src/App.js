@@ -1,6 +1,6 @@
 import styles from './app.module.css';
 import Currencies from './components/currencies';
-const App = () => {
+const app = () => {
   return (
     <div className={styles.app}>
       <Currencies />
@@ -8,4 +8,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default app;
